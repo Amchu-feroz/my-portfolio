@@ -1,42 +1,44 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: whitesmoke;
-  }
-  
-  nav {
-    background-color: crimson;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  nav a {
-    margin: 0 15px;
-    text-decoration: none;
+    background: #0f172a;
     color: white;
-    font-weight: bold;
-  }
-  
-  section {
-    padding: 30px;
-  }
-  
-  #home {
-    text-align: center;
-    padding: 50px;
-  }
-  
-  h1 {
-    font-size: 36px;
-    color:darkmagenta;
-  }
-  
-  h2 {
-    color: crimson;
-  }
-  
-  p, li {
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight {
+    color: #38bdf8;
+}
+
+.btn-custom {
+    background: #38bdf8;
     color: black;
-  }
-  
+    border: none;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.card {
+    background: #1e293b;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
